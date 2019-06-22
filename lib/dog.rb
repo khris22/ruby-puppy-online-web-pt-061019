@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.collect {|name| print "#{name}"}
+    @@all.collect {|name| p name}
   end
 
   def self.clear_all
