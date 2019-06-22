@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.each {|name| print "#{name}"}.to_ary
+    @@all.each {|name| print "#{name}"}
   end
 
   def self.clear_all
