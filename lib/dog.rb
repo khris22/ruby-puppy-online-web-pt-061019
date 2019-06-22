@@ -9,9 +9,9 @@ class Dog
   end
 
   def self.all
-    @@all.map!
+    @@all.map
   end
-
+#{|name| print "#{name}"}
   def self.clear_all
     @@all.clear
   end
