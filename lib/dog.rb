@@ -9,10 +9,13 @@ class Dog
   end
 
   def self.all
-    @@all.map
-    # .each {|name| print "#{name}"}
+    @@all
+    self.all.each {|name| print "#{name}"}
+    # .collect {|name| print "#{name}"}
     # (&:inspect).join("\n")
   end
+
+  
 
   def self.clear_all
     @@all.clear
