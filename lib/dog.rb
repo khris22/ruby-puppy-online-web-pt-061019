@@ -10,9 +10,6 @@ class Dog
 
   def self.all
     @@all.each {|name| puts "#{name}"}
-    # self.all.each {|name| print "#{name}"}
-    # .collect {|name| print "#{name}"}
-    # (&:inspect).join("\n")
   end
 
   def self.clear_all
@@ -20,3 +17,8 @@ class Dog
   end
 
 end
+
+
+# self.all.each {|name| print "#{name}"}
+# .collect {|name| print "#{name}"}
+# (&:inspect).join("\n")
