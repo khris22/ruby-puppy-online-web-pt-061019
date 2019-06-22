@@ -15,7 +15,7 @@ class Dog
     # (&:inspect).join("\n")
   end
 
-  
+
 
   def self.clear_all
     @@all.clear
