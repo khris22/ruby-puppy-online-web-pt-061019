@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all
+    @@all.each {|name| puts "#{name}"}
     # self.all.each {|name| print "#{name}"}
     # .collect {|name| print "#{name}"}
     # (&:inspect).join("\n")
