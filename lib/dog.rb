@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.to_a
+    @@all.all.to_a
     # {|name| print "#{name}"}
   end
 
